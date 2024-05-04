@@ -1,0 +1,5 @@
+package com.news.repository;
+
+public interface NewRepository {
+
+}

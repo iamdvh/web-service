@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: Admin
+Build-Jdk: 20.0.1
+Implementation-Title: news-api-web-service
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com.news
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: https://projects.spring.io/spring-boot/news-api-web-
+ service/
+Created-By: Maven Integration for Eclipse
+

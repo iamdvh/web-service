@@ -1,0 +1,10 @@
+package com.news.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.news.entity.CategoryEntity;
+import com.news.entity.NewEntity;
+
+public interface CategoryRepository extends JpaRepository<CategoryRepository, Long>{
+	private CategoryEntity findOneByCode(String code);
+}

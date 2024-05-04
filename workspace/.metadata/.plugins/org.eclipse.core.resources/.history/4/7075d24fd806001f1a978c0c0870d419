@@ -1,0 +1,16 @@
+package com.news.api;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.news.dto.NewDTO;
+
+@RestController
+public class NewAPI {
+	@PostMapping(value = "/create")
+	public NewDTO Create(@RequestBody NewDTO model) {
+		return model;
+	}
+}
+	
